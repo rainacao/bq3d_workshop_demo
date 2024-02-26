@@ -1,0 +1,16 @@
+name: bq3d
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.9
+  - nb_conda_kernels
+  - pip
+  - pip:
+    - numpy==1.23.5
+    - Cython==0.29.24
+    - antspyx
+    - ipykernel
+#must download bq3d from the github manually! 
+#pip install git+git
